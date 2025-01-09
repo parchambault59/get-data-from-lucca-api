@@ -1,0 +1,10 @@
+{
+    "api_url_start":"https://",
+    "api_url_middle":".ilucca-demo.net/",
+    "contracts_api_url_end": "directory/api/4.0/work-contracts",
+    "departments_api_url_end":"api/v3/departments",
+    "employees_api_url_end":"api/v3/users?formerEmployees=true",
+    "contracts_params": ["id", "ownerId", "startsOn", "endsOn"],
+    "departments_params": ["id", "name", "hierarchy" ,"parentId", "position", "headId"],
+    "employees_params": ["id", "firstName", "lastName", "birthDate", "department.id", "manager.id"]
+}

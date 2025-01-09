@@ -1,0 +1,21 @@
+# Ignore virtual environment directory
+venv/
+
+# Ignore environment variable files
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore all files in the outputs folder
+outputs/*
+
+# But do not ignore the outputs folder itself
+!outputs/
+
+# Do not ignore .gitkeep files in the outputs folder
+!outputs/.gitkeep
+
+# Ignore DS_Store files
+.DS_Store
