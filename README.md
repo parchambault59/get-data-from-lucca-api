@@ -17,6 +17,7 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+Might take up to 30 seconds to run.
 
 ### 4. Create your .env file
 
@@ -33,11 +34,11 @@ ACCOUNT="your-lucca-account-name"
 SANDBOX_NAME="your-sandbox-name"
 ```
 
-### 5. Launch the script
+### 5. Run the script
 
 ```bash 
 python3 script.py 
 ```
-First run of the script might take up to 30 seconds.
+Might take up to a minute to run the first time.
 
 
