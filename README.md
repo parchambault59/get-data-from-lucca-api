@@ -21,12 +21,11 @@ Might take up to 30 seconds to run.
 
 ### 4. Create your .env file
 
-1. Rename .env.example file as .env
-   You now have your .env file
-3. Replace "your-api-key-here with" by your API key
-4. Replace "your-lucca-account-name" by your Lucca account name
-5. Replace "your-sandbox-name" by your sandbox name
-6. Save the file
+1. Rename .env.example file as .env -> you now have your .env file
+2. Replace "your-api-key-here with" by your API key
+3. Replace "your-lucca-account-name" by your Lucca account name
+4. Replace "your-sandbox-name" by your sandbox name
+5. Save the file
 
 ```bash
 API_KEY="lucca application={your-api-key-here}"
