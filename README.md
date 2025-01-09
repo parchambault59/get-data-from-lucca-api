@@ -20,10 +20,10 @@ pip install -r requirements.txt
 
 ### 4. Create your .env file
 
-a. Rename .env.example file as .env
-b. Replace "your-api-key-here with" by your API key
-c. Replace "your-lucca-account-name" by your Lucca account name
-d. Replace "your-sandbox-name" by your sandbox name
+1. Rename .env.example file as .env
+2. Replace "your-api-key-here with" by your API key
+3. Replace "your-lucca-account-name" by your Lucca account name
+4. Replace "your-sandbox-name" by your sandbox name
 
 ```bash
 API_KEY="lucca application={your-api-key-here}"
