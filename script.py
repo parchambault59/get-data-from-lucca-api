@@ -119,12 +119,12 @@ def process_employees_data(data):
     data = data.drop(['department', 'manager'], axis=1)
     return data
     
-def process_data(data, object_name):
+def process_data(data, data_type):
     """
-    Processes the given data based on the specified object name and returns a pandas DataFrame.
+    Processes the given data based on the specified data type and returns a pandas DataFrame.
     Parameters:
     data (dict): The data to be processed. It should be a dictionary containing the relevant information.
-    object_name (str): The type of object the data represents. It can be one of the following:
+    data_type (str): The type of object the data represents. It can be one of the following:
                        - "contracts": Processes contract data.
                        - "departments": Processes department data.
                        - "employees": Processes employee data.
@@ -134,11 +134,11 @@ def process_data(data, object_name):
     if not data:
         print("Aucun contrat trouvé.")
         return None
-    if object_name == "contracts":
+    if data_type == "contracts":
         data = data.get('items', [])
-    elif object_name == "departments":
+    elif data_type == "departments":
         data = data.get('data', []).get('items', [])
-    elif object_name == "employees":
+    elif data_type == "employees":
         data = process_employees_data(data)
     return pd.DataFrame(data)
     
